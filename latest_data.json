@@ -1,23 +1,23 @@
 {
   "date": "20261012",
-  "generated_at": "2026-10-12 16:48:05",
+  "generated_at": "2026-10-13 03:01:23",
   "taiex": {
     "index": 49301.96,
     "change": -11.48,
     "change_pct": -0.02,
-    "volume": 889458196182.0,
+    "volume": 894521928358.0,
     "prev_volume": 924509097873.0,
-    "volume_change": -3.79,
+    "volume_change": -3.24,
     "date": "20261012"
   },
   "institutional": {
-    "foreign_buy": 307731139633.0,
-    "foreign_sell": 359929286089.0,
+    "foreign_buy": 312724764934.0,
+    "foreign_sell": 364922911390.0,
     "foreign_net": -52198146456.0,
     "foreign_prev_net": null,
-    "trust_buy": 25525469522.0,
-    "trust_sell": 18401906739.0,
-    "trust_net": 7123562783.0,
+    "trust_buy": 26036212786.0,
+    "trust_sell": 18895287719.0,
+    "trust_net": 7140925067.0,
     "trust_prev_net": null,
     "dealer_net": -799373028.0,
     "dealer_buy": 7427842603.0,
@@ -28,8 +28,8 @@
       {
         "stock_id": "2887",
         "stock_name": "台新新光金",
-        "buy": 54249,
-        "sell": 17036,
+        "buy": 57099,
+        "sell": 19886,
         "net": 37213
       },
       {
@@ -49,8 +49,8 @@
       {
         "stock_id": "2883",
         "stock_name": "凱基金",
-        "buy": 48031,
-        "sell": 18609,
+        "buy": 48639,
+        "sell": 19217,
         "net": 29422
       },
       {
@@ -91,8 +91,8 @@
       {
         "stock_id": "3481",
         "stock_name": "群創",
-        "buy": 42469,
-        "sell": 26619,
+        "buy": 45824,
+        "sell": 29974,
         "net": 15850
       }
     ],
@@ -107,15 +107,15 @@
       {
         "stock_id": "2409",
         "stock_name": "友達",
-        "buy": 67873,
-        "sell": 94155,
+        "buy": 68662,
+        "sell": 94944,
         "net": -26282
       },
       {
         "stock_id": "2317",
         "stock_name": "鴻海",
-        "buy": 12873,
-        "sell": 38221,
+        "buy": 13037,
+        "sell": 38385,
         "net": -25348
       },
       {
@@ -171,11 +171,13 @@
     "data_date": "20261012"
   },
   "margin": {
-    "margin_balance": null,
-    "margin_change": null,
-    "margin_balance_amount": null,
-    "short_balance": null,
-    "short_change": null
+    "margin_balance": 9453100.0,
+    "margin_change": 49732,
+    "margin_balance_amount": 653329500000.0,
+    "short_balance": 216189.0,
+    "short_change": 4243,
+    "date": "2026-10-12",
+    "source": "FinMind"
   },
   "breadth": {
     "tse_up": 495,
@@ -187,10 +189,6 @@
     "otc_date": "20261012"
   },
   "usd_index": [
-    {
-      "date": "2026-09-19",
-      "close": 97.36
-    },
     {
       "date": "2026-09-21",
       "close": 100.4
@@ -266,13 +264,13 @@
     {
       "date": "2026-10-12",
       "close": 99.23
+    },
+    {
+      "date": "2026-10-13",
+      "close": 99.23
     }
   ],
   "jpy_rate": [
-    {
-      "date": "2026-09-18",
-      "close": 156.87
-    },
     {
       "date": "2026-09-19",
       "close": 147.95
@@ -348,10 +346,14 @@
     {
       "date": "2026-10-10",
       "close": 153.02
+    },
+    {
+      "date": "2026-10-13",
+      "close": 152.23
     }
   ],
   "vix": {
-    "value": 15.37,
+    "value": 15.22,
     "prev_value": 14.84,
     "date": "2026-10-12",
     "chart": [
@@ -473,7 +475,7 @@
       },
       {
         "date": "2026-10-12",
-        "close": 15.37
+        "close": 15.22
       }
     ],
     "source": "Yahoo Finance",
@@ -496,8 +498,8 @@
     "date": "20261012"
   },
   "cnn_fg": {
-    "value": 45,
-    "label": "fear",
+    "value": 45.3,
+    "label": "neutral",
     "prev_value": 45.0,
     "prev_label": null,
     "week_ago_value": 43.7
@@ -514,14 +516,10 @@
     "call_oi": 336728.0
   },
   "us10y": {
-    "value": 5.244,
-    "prev_value": 5.231,
-    "date": "2026-10-09",
+    "value": 5.24,
+    "prev_value": 5.244,
+    "date": "2026-10-12",
     "chart": [
-      {
-        "date": "2026-08-28",
-        "close": 4.72
-      },
       {
         "date": "2026-08-31",
         "close": 4.758
@@ -637,6 +635,10 @@
       {
         "date": "2026-10-09",
         "close": 5.244
+      },
+      {
+        "date": "2026-10-12",
+        "close": 5.24
       }
     ],
     "source": "Yahoo Finance",
