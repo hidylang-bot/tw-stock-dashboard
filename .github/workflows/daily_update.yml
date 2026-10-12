@@ -1,9 +1,10 @@
 name: Daily Dashboard Update
 
 on:
-  # Run at UTC 10:00 = Taiwan 18:00, weekdays only
+  # Run once after all Taiwan cash/futures post-close datasets are normally
+  # available: UTC 09:17 = Asia/Taipei 17:17, weekdays only.
   schedule:
-    - cron: '17 6,10,14 * * 1-5'
+    - cron: '17 9 * * 1-5'
 
   # Manual trigger
   workflow_dispatch:
@@ -15,7 +16,7 @@ permissions:
 
 concurrency:
   group: dashboard-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-dashboard:
